@@ -21,11 +21,15 @@ Go to the project directory
 -   Copy .env.example file to .env and edit database credentials there
 
 ```bash
-    composer install
+    composer up
 ```
 
 ```bash
     php artisan key:generate
+```
+
+```bash
+    php artisan migrate
 ```
 
 ```bash
